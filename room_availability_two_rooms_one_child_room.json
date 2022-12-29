@@ -1,0 +1,12 @@
+{
+    "method": "POST",
+    "url": "https://$BASE_URL/properties/availability/search",
+    "headers": [
+    { "name": "Authorization", "value": "Bearer ACCESS_TOKEN" }
+  ],
+    "postData" : {
+        "mimeType": "application/json",
+        "text": ""
+      }
+
+  }
