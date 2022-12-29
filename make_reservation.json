@@ -1,1 +1,12 @@
+{
+    "method": "POST",
+    "url": "https://$BASE_URL/properties/booking/checkout",
+    "headers": [
+    { "name": "Authorization", "value": "Bearer ACCESS_TOKEN" }
+  ],
+    "postData" : {
+        "mimeType": "application/json",
+        "text": "{\"PackageId\" : \"8dcd8e90-a371-4b28-879d-de62e3a01abd\",\"Rooms\": [{\"RateKey\": \"2403bf4a-2b5a-4307-abfe-7ad3ba761f46\",\"Guests\": [{\"GivenName\": \"qaa\",\"SurName\": \"qq\",\"Phone\": \"123\",\"Email\": \"marcelo@travcoding.com\",\"IsMainGuest\": true,\"Residence\": \"\",\"Age\": 30},{\"GivenName\": \"vv\",\"SurName\": \"bb\",\"IsMainGuest\": false,\"Residence\": \"\",\"Age\": 30}]}],\"Card\": {\"AddressLine\": \"aa\",\"AddressLine2\": null,\"CVV\": \"123\",\"CardNumber\": \"4111111111111111\",\"CardType\": 1,\"City\": \"bb\",\"State\": \"AL\",\"Country\": \"US\",\"ExpireDate\": \"022023\",\"HolderName\": \"aa\",\"Phone\": \"123\",\"ZipCode\": \"55555\"},\"Marginator\" :{\"Percentage\" : 0.00,\"Commission\" : 0.00,\"Impersonator\" : {\"ImpersonatingUserId\" : \"c6c30ebb-79e6-4ff4-bf88-78de6ef5cb39\",\"MemberId\" : 0}}}"
+      }
 
+  }
