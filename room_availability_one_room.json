@@ -1,0 +1,13 @@
+{
+    "method": "POST",
+    "url": "https://$BASE_URL/properties/availability/search",
+    "headers": [
+    { "name": "Authorization", "value": "Bearer ACCESS_TOKEN" }
+  ],
+    "postData" : {
+        "mimeType": "application/json",
+        "text": "{\"Residency\": \"US\", \"Stay\": {\"CheckIn\": \"2023-05-14T00:00:01Z\",
+		\"CheckOut\": \"2023-05-17T00:00:01Z\"},\"Properties": [\"310234\"],\"Occupancies\": [{\"adults\": 2,\"KidAges\": [],\"Total\": 2}],\"RoomCount\": 1}"
+      }
+
+  }
