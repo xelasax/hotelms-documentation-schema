@@ -1,0 +1,11 @@
+{
+    "method": "POST",
+    "url": "https://$BASE_URL/properties-condos/availability/search-flexible",
+    "headers": [
+    { "name": "Authorization", "value": "Bearer ACCESS_TOKEN" }
+  ],
+    "postData" : {
+        "mimeType": "application/json",
+        "text": "{\"Residency\":\"US\",\"Months\":[\"2023-05\",\"2023-06\",\"2023-07\"],\"StayDuration\":\"week\",\"Place\":{\"Id\":34467,\"Name\":\"Orlando, Florida, United States of America (Vicinity)\",\"Type\":\"City\",\"GeoLocation\":{\"Latitude\":-81.37904,\"Longitude\":28.54129}},\"Occupancy\":{\"Adults\":2,\"Childrens\":0},\"Bedrooms\":1,\"Language\":\"en-US\",\"Currency\":\"USD\"}"
+      }
+  }

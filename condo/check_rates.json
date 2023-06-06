@@ -1,0 +1,11 @@
+{
+    "method": "POST",
+    "url": "https://$BASE_URL/properties-condos/check/checkrates",
+    "headers": [
+    { "name": "Authorization", "value": "Bearer ACCESS_TOKEN" }
+  ],
+    "postData" : {
+        "mimeType": "application/json",
+        "text": "{\"PackageId\":\"7a046c5e-1459-4e24-ba4b-6966f31ec6f3\",\"Currency\":\"USD\"}"
+      }
+  }

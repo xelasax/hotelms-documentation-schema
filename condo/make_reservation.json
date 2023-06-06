@@ -1,0 +1,11 @@
+{
+    "method": "POST",
+    "url": "https://$BASE_URL/properties-condos/booking/checkout",
+    "headers": [
+    { "name": "Authorization", "value": "Bearer ACCESS_TOKEN" }
+  ],
+    "postData" : {
+        "mimeType": "application/json",
+        "text": "{\"PackageId\":\"1c3930fb-7743-4df6-b516-ef2437f38816\",\"ReferenceNumber\":null,\"AgencyNumber\":null,\"Rooms\":[{\"RateKey\":\"a848cdc5-2cb2-4a6b-9988-d4d1327325fa\",\"Guests\":[{\"Allocation\":\"a848cdc5-2cb2-4a6b-9988-d4d1327325fa\",\"Id\":\"a848cdc5-2cb2-4a6b-9988-d4d1327325fa\",\"NamePrefix\":\"Mrs.\",\"GivenName\":\"Christina\",\"MiddleName\":\"\",\"SurName\":\"Harper\",\"AddressLine\":\"PO Box 114\",\"City\":\"Iona\",\"CountryCode\":\"USA\",\"Phone\":\"208-521-5406\",\"Email\":\"cndlmkr46@gmail.com\",\"IsMainGuest\":true,\"Residence\":\"US\",\"Age\":30,\"Type\":0,\"PostalCode\":\"83427\",\"FullName\":\"Mrs. Christina Harper\"}]}],\"Card\":{\"AddressLine\":\"PO Box 114\",\"AddressLine2\":null,\"CVV\":\"3829\",\"CardNumber\":\"4242424242424242\",\"CardType\":3,\"City\":\"Iona\",\"State\":\"ID\",\"Country\":\"US\",\"ExpireDate\":\"112026\",\"HolderName\":\"Christina Harper\",\"Phone\":\"208-521-5406\",\"ZipCode\":\"83427\"},\"Currency\":\"USD\"}"
+      }
+  }
