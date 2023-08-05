@@ -1,0 +1,11 @@
+{
+    "method": "POST",
+    "url": "https://$BASE_URL/contents/condos/byDestination",
+    "headers": [
+    { "name": "Authorization", "value": "Bearer ACCESS_TOKEN" }
+  ],
+    "postData" : {
+        "mimeType": "application/json",
+        "text": "{\"Destinations\":[34467, 28632, 1099250, 3632704]}"
+      }
+}
