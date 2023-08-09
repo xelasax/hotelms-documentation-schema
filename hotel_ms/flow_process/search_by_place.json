@@ -1,0 +1,13 @@
+{
+    "method": "POST",
+    "url": "https://$BASE_URL/properties/availability/search",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+      { "name": "Authorization", "value": "Bearer ACCESS_TOKEN" },
+      {"name": "Content-Type","value": "application/json"}
+    ],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"Residency\":\"US\",\"Stay\":{\"CheckIn\":\"2024-02-10T00:00:01Z\",\"CheckOut\":\"2024-02-14T00:00:01Z\"},\"Occupancies\":[{\"adults\":2,\"KidAges\":[],\"Total\":2}],\"Place\":{\"Id\":28632}}"
+    }
+  }
