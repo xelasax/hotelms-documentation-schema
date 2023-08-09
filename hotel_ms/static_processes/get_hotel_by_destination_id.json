@@ -1,0 +1,13 @@
+{
+    "method": "POST",
+    "url": "https://$BASE_URL/contents/location/hotel/bydestination",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+      { "name": "Authorization", "value": "Bearer ACCESS_TOKEN" },
+      {"name": "Content-Type","value": "application/json"} 
+    ],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"Destinations\":[34467,28632,1099250,3632704]}"
+    }
+  }
