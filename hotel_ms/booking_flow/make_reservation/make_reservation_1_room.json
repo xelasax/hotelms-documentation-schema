@@ -1,1 +1,13 @@
-
+{
+    "method": "POST",
+    "url": "https://$BASE_URL/properties/booking/checkout",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+      { "name": "Authorization", "value": "Bearer ACCESS_TOKEN" },
+      {"name": "Content-Type","value": "application/json"}
+    ],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"PackageId\":\"a88a958b-0406-43d4-8194-dc2c189b4ba7\",\"Rooms\":[{\"RateKey\":\"dfab2124-e732-4b1f-af02-ff1e720ad7ea\",\"Guests\":[{\"GivenName\":\"Ricky\",\"SurName\":\"Fort\",\"Phone\":\"4071231233\",\"Email\":\"fernando@travcoding.com\",\"IsMainGuest\":true,\"Residence\":\"US\",\"Age\":30},{\"GivenName\":\"TBV\",\"SurName\":\"TBV\",\"IsMainGuest\":false,\"Residence\":\"\",\"Age\":30}]}],\"Card\":{\"AddressLine\":\"aa\",\"AddressLine2\":null,\"CVV\":\"123\",\"CardNumber\":\"4111111111111111\",\"CardType\":1,\"City\":\"bb\",\"State\":\"AL\",\"Country\":\"US\",\"ExpireDate\":\"102024\",\"HolderName\":\"aa\",\"Phone\":\"123\",\"ZipCode\":\"55555\"}}"
+    }
+  }
