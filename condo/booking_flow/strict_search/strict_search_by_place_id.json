@@ -8,6 +8,6 @@
   ],
   "postData": {
     "mimeType": "application/json",
-    "text": "{\"Residency\":\"US\",\"Stay\":{\"CheckIn\":\"2023-09-14T00:00:00-03:00\",\"CheckOut\":\"2023-09-21T00:00:00-03:00\"},\"Properties\":[\"3858055\",\"3858218\"],\"Occupancy\":{\"Adults\":2,\"Childrens\":0},\"Bedrooms\":1}"
+    "text": "{\"Residency\":\"US\",\"Stay\":{\"CheckIn\":\"2023-09-14T00:00:00-03:00\",\"CheckOut\":\"2023-09-21T00:00:00-03:00\"},\"Place\":{\"Id\":34467},\"Occupancy\":{\"Adults\":2,\"Childrens\":0},\"Bedrooms\":1}"
   }
 }

@@ -3,7 +3,7 @@
   "url": "https://$BASE_URL/properties-condos/availability/search-strict",
   "httpVersion": "HTTP/1.1",
   "headers": [
-    { "name": "Content-Type", "value": "application/json" },
+    {"name": "Content-Type", "value": "application/json" },
     { "name": "Authorization", "value": "Bearer ACCESS_TOKEN" }
   ],
   "postData": {
