@@ -1,0 +1,9 @@
+{
+  "method": "GET",
+  "url": "https://$BASE_URL/contents/property/condo/$PROPERTY_ID",
+  "headers": [
+    { "name": "Accept", "value": "application/json" },
+    { "name": "Content-Type", "value": "application/json" },
+    { "name": "Authorization", "value": "Bearer ACCESS_TOKEN" }
+  ]
+}

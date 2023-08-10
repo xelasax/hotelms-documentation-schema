@@ -1,0 +1,13 @@
+{
+    "method": "POST",
+    "url": "https://$BASE_URL/properties-condos/availability/search-flexible",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+      { "name": "Content-Type","value": "application/json" },
+      { "name": "Authorization", "value": "Bearer ACCESS_TOKEN" }
+    ],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"Residency\":\"US\",\"Months\":[\"2023-08\",\"2023-09\",\"2023-10\"],\"StayDuration\":\"week\",\"Place\":{\"Id\":34467},\"Occupancy\":{\"Adults\":2,\"Childrens\":0}}"
+    }
+  }
