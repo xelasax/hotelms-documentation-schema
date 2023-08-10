@@ -1,0 +1,12 @@
+{
+    "method": "POST",
+    "url": "https://$BASE_URL/properties/check/checkrates",
+    "headers": [
+    { "name": "Authorization", "value": "Bearer ACCESS_TOKEN" }
+  ],
+    "postData" : {
+        "mimeType": "application/json",
+        "text": "{\"PackageId\": \"8dcd8e90-a371-4b28-879d-de62e3a01abd\",\"RateKey\": []}"
+      }
+
+  }
